@@ -1,0 +1,59 @@
+@media screen and (max-width: 700px) {
+header .container{
+  display: flex;
+  flex-direction:column;
+}  
+header nav {
+  margin-right: 0px;
+}
+ 
+}
+@media screen and (max-width: 1000px){
+
+  body{
+    background-size: cover;
+    background-color: #141414 ;
+  }
+
+  .filme-principal .container{
+    margin: 150px auto 10px;
+  }
+  .filme-principal h3{
+    font-size: 35px;
+  }
+  .filme-principal .description{
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .botoes .button{
+    font-size: 12px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  button .icon-play3, .icon-info_outline{
+    font-size: 12px;
+    
+  }
+  #header .menu{
+    font-size: 14px;
+  }
+  #header img.logo{
+    margin-right: 15px;
+  }
+  
+  #menu-right i{
+    font-size: 1.2em;
+    margin-right: 5px;
+  }
+  #menu-right img{
+    width: 18%;
+  }
+
+
+}
+@media screen and (min-width: 1000px){
+  .description{
+    width: 50%;
+  }
+  
+}
